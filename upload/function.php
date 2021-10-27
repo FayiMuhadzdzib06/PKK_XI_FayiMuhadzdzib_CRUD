@@ -29,7 +29,7 @@ function tambah($data)
     $gambar = upload();
     if (!$gambar){
         return false;
-    }
+    } 
 
     // query insert data
     $query = "INSERT INTO siswa
