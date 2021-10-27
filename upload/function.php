@@ -66,7 +66,7 @@ function upload()
             </script>";
     }
 
-    //
+    //cek jika filenya ukurannya terlalu besar
 
 }
 
