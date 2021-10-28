@@ -95,7 +95,7 @@ function ubah($data)
     $email = htmlspecialchars($data["email"]);
     $jurusan = htmlspecialchars($data["jurusan"]);
 
-    //celk apakah user pilih gambar baru atau tidak
+    //cek apakah user pilih gambar baru atau tidak
     $gambarLama = htmlspecialchars($data["gambarLama"]);
     if ($_FILES['gambar']['error'] === 4) {
         $gambar = $gambarLama;
