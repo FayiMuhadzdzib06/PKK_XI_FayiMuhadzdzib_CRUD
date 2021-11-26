@@ -61,9 +61,9 @@ if (isset($_POST["cari"])) {
                     <tr>
                         <td><?= $i?></td>
                         <td>
-                            <a href="ubah.php" class="btn btn-warning">ubah</a>
+                            <a href="ubah.php" class="btn btn-warning" style="border-radius: 40px;">ubah</a>
                             <a href="hapus.php?id=<?= $sws["id"]?>"
-                            onclick="return confirm('yakin mau dihapus?');" class="btn btn-danger">hapus</a>
+                            onclick="return confirm('yakin mau dihapus?');" class="btn btn-danger" style="border-radius: 40px;">hapus</a>
                         </td>
                         <td><img src="img/<?= $sws["gamabar"]?>" alt="" width="100"></td>
                         <td><?= $sws["nim"]?></td>
